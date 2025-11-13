@@ -7,6 +7,6 @@ alias a="ansible"
 alias ap="ansible-playbook"
 alias ls="eza --icons --group-directories-first"
 alias ll="eza --icons --group-directories-first -l"
-alias bp="boilerplate"
+alias bp="boilerplates"
 alias prx="proxmox-manager"
 

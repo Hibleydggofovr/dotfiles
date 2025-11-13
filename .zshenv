@@ -14,4 +14,4 @@ export KUBE_EDITOR=vim
 
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
-
+export GEMINI_API_KEY="AIzaSyBMGYUvzqTtbB8Ua7cjQ--wGDA9DLW5A6g"
