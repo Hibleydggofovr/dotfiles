@@ -5,7 +5,7 @@
 
 ## Rules and Guardrails
 
-- When asking for visualizing, diagrams are needed (if user does not explicitly say) do not use mermaid or flowcharts, use ascii-style visualization (you can use nerd-fonts!) for chat-output. HOWEVER, you can use mermaid/flowchart for markdown files of course!
+- For diagrams in chat output, use terminal-safe ASCII visualizations. Prefer simple trees and lists using `|`, `-`, `+`, `>`, and indentation. Do not use Mermaid in chat, Nerd Font/private-use glyphs, emoji, Unicode box-drawing characters, tabs, closed boxes, right-hand borders, or spacing-dependent aligned columns. Keep diagrams reasonably narrow so terminal wrapping cannot break them. Mermaid is allowed in Markdown files.
 - When orchestrating tasks to sub-agents, NEVER use `codex-cli`, ALWAYS prefer `pi`.
 
 ## Behavior
