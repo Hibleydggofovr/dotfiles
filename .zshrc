@@ -49,3 +49,7 @@ export PATH="/Users/xcad/.local/share/modelcode:$PATH"
 
 # Add local user bin to PATH
 export PATH="$HOME/.local/bin:$PATH"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"

@@ -1,13 +1,14 @@
 window-padding-x = 8
 window-padding-y = 8
+window-save-state = always
 
 font-family = FiraCode Nerd Font
 font-size = 16
 theme = dark:xcad2k-dark, light:xcad2k-light
 
 macos-icon = xray
-background-opacity = 0.95
-background-blur = true
+#background-opacity = 0.95
+#background-blur = true
 
 keybind = opt+left=text:\x1bb
 keybind = opt+right=text:\x1bf
