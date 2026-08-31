@@ -1,0 +1,12 @@
+# Custom style uses ANSI palette colors from the active terminal theme
+style: "/Users/xcad/.config/glow/xcad2k.json"
+# mouse support (TUI-mode only)
+mouse: false
+# use pager to display markdown
+pager: false
+# word-wrap at width (0 disables wrapping)
+width: 0
+# show all files, including hidden and ignored.
+all: false
+# show line numbers (TUI-mode only)
+showLineNumbers: true
